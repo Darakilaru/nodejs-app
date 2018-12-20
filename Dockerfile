@@ -9,4 +9,4 @@ RUN yarn install --production
 
 
 CMD node server.js
-
+USER root
