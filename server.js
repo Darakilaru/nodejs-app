@@ -9,7 +9,7 @@ const express = require('express');
  // App
   const app = express();
   app.get('/', (req, res) => {
-  res.send('WELCOME\n');
+  res.send('WELCOME OPENSHIFT IS WORKING\n');
   });
 
    app.listen(PORT, HOST);
